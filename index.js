@@ -58,7 +58,7 @@ function getMatchingCatsArray() {
         if (isGif) {
             return cat.emotionTags.includes(selectedEmotion) && cat.isGif;
         } else {
-            return cat.emotionTags.includes(selectedEmotion);
+            return cat.emotionTags.includes(selectedEmotion) && !cat.isGif;
         }            
     });
     
