@@ -88,7 +88,7 @@ function renderEmotionsOptions(cats) {
     }
     
     emotionOptions.innerHTML = `
-        <select id="emotions" class="emotion-select" size="9">
+        <select id="emotions" class="emotion-select" size="4">
             ${options}
         </select>
     `;
